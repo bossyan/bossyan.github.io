@@ -1,0 +1,38 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Bree Serif', serif;
+}
+
+.photo-of-me {
+    height: 120px;
+    border-radius: 50px;
+}
+
+hr {
+    color: #000;
+}
+
+#featured_work .picture-container {
+    min-height: 115px;
+    background-color: #999;
+    padding: 20px;
+}
+
+#featured_work .picture-container > picture > img {
+    margin: auto;
+}
+
+#featured_work, .section {
+    margin: 40px 0;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
